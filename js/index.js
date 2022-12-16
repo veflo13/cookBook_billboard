@@ -16,6 +16,8 @@ fetchmycookbookjson().then(mycookbookjson=>{
         let instructions = mycookbookjson.mycookbook[index].instrucciones
         let img = mycookbookjson.mycookbook[index].img
 
+
+        
         cookBookSection.innerHTML += `
 
         <div class="images">
@@ -40,11 +42,8 @@ fetchmycookbookjson().then(mycookbookjson=>{
                 </div>
                 `
             }
-                cookBookSection.innerHTML += `
-
-                
-                `
             
     }
+    console.log(mycookbookjson)
 })
 

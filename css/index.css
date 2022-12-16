@@ -59,6 +59,8 @@ h3{
 
 .container{
     background-color: darkorange;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: initial;
     align-items: center;
@@ -69,12 +71,9 @@ h3{
 li{
     background-color: magenta;
     position:relative;
-    width: 50%;
+    width: 150%;
     left: 0%;
-    width: 147%;
     text-align: center;
-
-
 }
 
 .instructions{
