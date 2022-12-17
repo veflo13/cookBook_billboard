@@ -29,7 +29,7 @@ h1{
 } 
 
 .cookBook{
-    background-color: #1de320;
+
     width:fit-content;
     display:flex;
     justify-content: space-around;
@@ -47,14 +47,12 @@ h1{
 
 .images{
     width:fit-content;
-    background-color: red;
     display:flex;
     justify-content: center;
-    border: solid 10px black;
+
 }
 
 .img{
-    background-color: rgb(69, 67, 136);
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -65,18 +63,14 @@ h1{
 }
 
 h2{
-    background-color: rgb(234, 255, 2);
     text-align: center;
     display: flex;
     font-family: 'Merienda One', cursive; 
     color: #464A44;
-    border: solid 10px black;
 }
 
 p{
     width: 400px;
-    background-color: brown;    
-    border: solid 5px black;
     white-space: pre - line;
     text-align: justify;
 }

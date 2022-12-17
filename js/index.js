@@ -40,13 +40,25 @@ fetchmycookbookjson().then(mycookbookjson=>{
         const pickOneSection=document.getElementById('pickOne') 
         console.log(mycookbookjson.mycookbook[index].titulo)
         let ingredients = mycookbookjson.mycookbook[index].ingredientes
-        let instructions = mycookbookjson.mycookbook[index].instrucciones
-        console.log(instructions)
-        
+        let  instructions= mycookbookjson.mycookbook[index].instrucciones
+
+
             for(let j=0; j<ingredients.length; j++){
-                {ingredients[j]}
+                pickOneSection.innerHTML += `
+                
+                `
                 console.log(ingredients[j])
             } 
-            console.log(mycookbookjson)
+
         }
 })
+
+document.getElementById("bttnNumber").onclick =function whichrecipe(){
+    let  num = document.getElementById("inputNumber").value;
+    console.log(num)
+}
+
+document.getElementById("bttnText").onclick =function whichIngredient(){
+    let  text = document.getElementById("inputText").value;
+    console.log(text)
+}

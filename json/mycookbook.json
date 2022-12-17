@@ -9,7 +9,7 @@
     {"id":7, "titulo":"pastel de zanahoria",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/DessertAlmond.jpeg"},
     {"id":8, "titulo":"steak tartar",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/salmonTartar.jpeg"},
     {"id":9, "titulo":"salmon",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/salmonLime.jpeg"},
-    {"id":10, "titulo":"postre",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/steakTartar.jpeg"}
+    {"id":10, "titulo":"postre",  "resumen":"lorem ipsum", "ingredientes":["veflo", "loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/steakTartar.jpeg"}
 
 ]
  }
