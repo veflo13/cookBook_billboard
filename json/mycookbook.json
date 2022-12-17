@@ -1,11 +1,15 @@
 {
     "mycookbook":[
-    {"id":1, "titulo":"croquetas", "ingredientes":["loremp ipsum1","loremp ipsum2","loremp ipsum3", "loremp ipsum1","loremp ipsum2","loremp ipsum3"  ], "instrucciones":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "img": "./img/salmonTartar.jpeg"},
-    {"id":2, "titulo":"pinchito moruno", "ingredientes":["loremp ipsum12","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/golf.jpeg"},
-    {"id":3, "titulo":"albondigas", "ingredientes":["loremp ipsum13","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/steakTartar.jpeg"},
-    {"id":4, "titulo":"pollo en salsa verde", "ingredientes":["loremp ipsum14","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/salmonLime.jpeg"},
-    {"id":5, "titulo":"pambazos", "ingredientes":["loremp ipsum15","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/marin.jpeg"},
-    {"id":6, "titulo":"arroz con leche ", "ingredientes":["loremp ipsum16","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/fish.jpeg"},
-    {"id":7, "titulo":"pastel de zanahoria", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"],"instrucciones":"lorem ipsum", "img":"./img/DessertAlmond.jpeg"}
+    {"id":1, "titulo":"Croquetas", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum1","loremp ipsum2","loremp ipsum3", "loremp ipsum1","loremp ipsum2","loremp ipsum3"  ],  "instrucciones":"Lt in culpa qui officia deserunt mollit anim id est laborum. Lt in culpa qui officia deserunt mollit anim id est laborum. Lt in culpa qui officia deserunt mollit anim id est laborum. Lt in culpa qui officia deserunt mollit anim id est laborum. mollit anim id est laborum. Lt in culpa qui officia deserunt mollit anim id est laborum. mollit anim id est laborum. Lt in culpa qui officia deserunt mollit anim id est laborum.", "img": "./img/salmonTartar.jpeg"},
+    {"id":2, "titulo":"pinchito moruno", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum12","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/golf.jpeg"},
+    {"id":3, "titulo":"albondigas", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum13","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/steakTartar.jpeg"},
+    {"id":4, "titulo":"pollo en salsa verde", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum14","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/salmonLime.jpeg"},
+    {"id":5, "titulo":"pambazos", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum15","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/marin.jpeg"},
+    {"id":6, "titulo":"arroz con leche ", "resumen":"lorem ipsum", "ingredientes":["loremp ipsum16","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/fish.jpeg"},
+    {"id":7, "titulo":"pastel de zanahoria",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/DessertAlmond.jpeg"},
+    {"id":8, "titulo":"steak tartar",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/salmonTartar.jpeg"},
+    {"id":9, "titulo":"salmon",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/salmonLime.jpeg"},
+    {"id":10, "titulo":"postre",  "resumen":"lorem ipsum", "ingredientes":["loremp ipsum17","loremp ipsum2","loremp ipsum3"], "instrucciones":"lorem ipsum", "img":"./img/steakTartar.jpeg"}
+
 ]
-}
+ }

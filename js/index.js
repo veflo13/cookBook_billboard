@@ -6,43 +6,47 @@ async function fetchmycookbookjson(){
     return mycookbookjson
 }
 
-fetchmycookbookjson().then(mycookbookjson=>{
+fetchmycookbookjson().then(mycookbookjson=>{    
     for (let index=0; index < mycookbookjson.mycookbook.length ; index++){
         const cookBookSection=document.getElementById('cookBook') 
         console.log(mycookbookjson.mycookbook[index].titulo)
         let id = mycookbookjson.mycookbook[index].id
         let title = mycookbookjson.mycookbook[index].titulo
+        let resume = mycookbookjson.mycookbook[index].resumen
+        let img = mycookbookjson.mycookbook[index].img        
+                
+        cookBookSection.innerHTML += `
+        <section class="slider">
+            <figure class="images">
+                <img src="${img}" class="img">
+            </figure>
+
+            <div class="text">            
+                <h2 class="idTitle">${id}.-${title}</h2> <a href=""></a>
+                <p class="instructions">
+                ${resume}
+                </p>
+            </div>
+        </section>
+        
+        `
+    }
+
+})
+
+
+fetchmycookbookjson().then(mycookbookjson=>{ 
+    for (let index=0; index < mycookbookjson.mycookbook.length ; index++){
+        const pickOneSection=document.getElementById('pickOne') 
+        console.log(mycookbookjson.mycookbook[index].titulo)
         let ingredients = mycookbookjson.mycookbook[index].ingredientes
         let instructions = mycookbookjson.mycookbook[index].instrucciones
-        let img = mycookbookjson.mycookbook[index].img
-
-
-        
-        cookBookSection.innerHTML += `
-
-        <div class="images">
-            <img class="img" src="${img}"></img> 
-        </div>
-        <h2>${id}.- ${title}</h2>
-        <div class="instructions">
-            <p>${instructions}</p>
-        </div> 
-        `
-        
         console.log(instructions)
+        
             for(let j=0; j<ingredients.length; j++){
-                console.log(instructions)
-                
-                cookBookSection.innerHTML += `
-                <div class="container">
-                    <ul>
-                        <li>${ingredients[j]}</li>
-                    </ul> 
-                    
-                </div>
-                `
-            }
-            
-    }
-    console.log(mycookbookjson)
+                {ingredients[j]}
+                console.log(ingredients[j])
+            } 
+            console.log(mycookbookjson)
+        }
 })
