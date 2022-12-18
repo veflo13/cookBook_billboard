@@ -1,5 +1,5 @@
 const requestURL = '../json/mycookbook.json';
-let num
+
 
 async function fetchmycookbookjson(){
     const response = await fetch (requestURL);
@@ -7,9 +7,18 @@ async function fetchmycookbookjson(){
     return mycookbookjson
 }
 
+let num = 2
+let length = 10
+let res = length - num
 
-fetchmycookbookjson().then(mycookbookjson=>{
-    for (let index=0; index < mycookbookjson.mycookbook.length ; index++){
+console.log(num)
+console.log(length)
+console.log(res)
+
+
+
+fetchmycookbookjson().then(mycookbookjson=>{    
+    for (let index = num; index < mycookbookjson.mycookbook.length ; index = index + res){
         const cookBookSection=document.getElementById('cookBook') 
         console.log(mycookbookjson.mycookbook[index].titulo)
         let id = mycookbookjson.mycookbook[index].id
@@ -46,5 +55,6 @@ fetchmycookbookjson().then(mycookbookjson=>{
             }
             
     }
+
 })
 

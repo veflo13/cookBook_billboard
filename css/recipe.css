@@ -28,7 +28,11 @@ h1{
     width: 100px;
     height: 100px;   
 } 
-
+.cookBook{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 h2{
     width: fit-content;
     text-align: center;
