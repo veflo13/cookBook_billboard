@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+body{
+    margin:0 ;
+    padding:0;
+    border:0;
+}
+header{
+    background-color: #464A44;
+    top: 0px;
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    align-items: center;  
+
+}
+
+h1{
+    width: fit-content;
+    text-align: center;
+    left: 100px;
+    margin: auto;
+    font-family: 'Merienda One', cursive;  
+    color: #FDFC98;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;   
+} 
+.cookBook{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+h2{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    font-family: 'Merienda One', cursive; 
+    font-size: xx-large;
+    color: #464A44;
+}
+h3{
+    background-color: blue; 
+    width: fit-content;
+    margin: auto;
+}
+
+.images{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.img{    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    }
+
+
+.container{
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    text-align: center;
+    margin:0;
+}
+
+li{
+    background-color: magenta;
+    position:relative;
+    width: 150%;
+    left: 0%;
+    text-align: center;
+}
+
+.instructions{
+    background-color: brown;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    text-align: center;
+
+
+}
+
+footer{
+    background-color: #464A44;
+    position:relative;
+    height: 100px;
+    
+}  
