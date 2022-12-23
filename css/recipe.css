@@ -43,13 +43,13 @@ h2{
     color: #464A44;
 }
 h3{
-    background-color: blue; 
     width: fit-content;
     margin: auto;
+    font-family: 'Merienda One', cursive; 
+
 }
 
 .images{
-    background-color: red;
     display: flex;
     justify-content: center;
 }
@@ -62,8 +62,7 @@ h3{
 
 
 .container{
-    background-color: darkorange;
-    width: 50%;
+    width: 30%;
     height: 50%;
     display: flex;
     justify-content: initial;
@@ -72,27 +71,40 @@ h3{
     margin:0;
 }
 
+ul{
+    margin: 2px 10px;
+    left: 1%;
+    list-style-type:circle;
+    
+}
+
 li{
-    background-color: magenta;
     position:relative;
-    width: 150%;
+    width: 100%;
     left: 0%;
-    text-align: center;
+    text-align:left;
+    font-family: 'Merienda One', cursive; 
+}
+
+p{
+    font-family: 'Merienda One', cursive;  
+    white-space: pre - wrap;
+
 }
 
 .instructions{
-    background-color: brown;
     position: absolute;
-    width: 50%;
-    left: 50%;
-    text-align: center;
-
-
+    width: 60%;
+    left: 30%; 
+    margin:auto 10px;
+    padding: auto 1%;
+    text-align: justify;
+    font-family: 'Merienda One', cursive; 
 }
 
-footer{
+
+ footer{
     background-color: #464A44;
-    position:relative;
-    height: 100px;
+    height: 50px;
     
-}  
+}    

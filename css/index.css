@@ -29,27 +29,20 @@ h1{
 } 
 
 .cookBook{
-
     width:fit-content;
     display:flex;
     justify-content: space-around;
-
-
 }
 
 .slider{
-/*     background-color: #FDFC98; */
-
     animation: change 30s infinite alternate-reverse;
     animation-timing-function: linear;  
-
 }
 
 .images{
     width:fit-content;
     display:flex;
     justify-content: center;
-
 }
 
 .img{
@@ -63,20 +56,25 @@ h1{
 }
 
 h2{
+    height: 100px;
+    font-family: 'Merienda One', cursive;  
     text-align: center;
     display: flex;
-    font-family: 'Merienda One', cursive; 
     color: #464A44;
 }
 
 p{
+    font-family: 'Merienda One', cursive;  
     width: 400px;
+    margin: 2px 5px;
     white-space: pre - line;
-    text-align: justify;
+    text-align: center;
+
 }
 
 
 .looking{
+    font-family: 'Merienda One', cursive;  
     background-color: #ccd3c8;
     position:relative;
     width: 100%;
@@ -89,6 +87,7 @@ p{
 
 
 form{
+    font-family: 'Merienda One', cursive;  
     background-color: #878a86;
     position:relative;
     width: 35%;
@@ -100,6 +99,7 @@ form{
 }
 
 input{
+    font-family: 'Merienda One', cursive;  
     position:relative;
     width: 50%; 
     text-align: center;

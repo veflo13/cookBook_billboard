@@ -53,10 +53,15 @@ fetchmycookbookjson().then(mycookbookjson=>{
         }
 })
 
+
 document.getElementById("bttnNumber").onclick =function whichrecipe(){
     let  num = document.getElementById("inputNumber").value;
     console.log(num)
+    return(num)
 }
+
+console.log(num)
+
 
 document.getElementById("bttnText").onclick =function whichIngredient(){
     let  text = document.getElementById("inputText").value;
